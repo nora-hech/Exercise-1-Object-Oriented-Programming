@@ -21,6 +21,6 @@ def main(r):
     print C.radius
     print C.area()
     print "The area of a circle with a radius of "+str(C.radius)+" cm is "+str(C.area())+" cm*cm"
-
+    print "The perimeter of a circle with a radius of "+str(C.radius)+" cm is "+str(C.perimeter())+" cm*cm"
 
 main(5)
